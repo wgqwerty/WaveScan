@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+
+}
+
+.msc-blank-icon  {
+    color: #00113B;
+    font-size: 4rem;
+  }
+
+msc-blank-title {
+    font-size: 1.6rem;
+}
+
+msc-blank-desc {
+    font-size: 1rem;
+    color: grey;
+}

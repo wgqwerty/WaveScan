@@ -1,0 +1,148 @@
+html{
+    background-image: url("../img/background.png");
+    font-family: 'Poppins', sans-serif;
+}
+
+/* for logo */
+.top img{
+    max-width: 20%;
+}
+
+.error{
+    color: #E53935;
+}
+
+.top{
+    width: 50%;
+    text-align: left;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #00113B;
+}
+
+.bottom{
+    margin: auto;
+    width: 50%;
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 10px 12px rgb(192, 190, 190);
+}
+
+
+
+.input-box{
+    background: white(244, 244, 244, 0.801191);
+    border-radius: 12px;
+    border: 2px solid rgba(244, 244, 244, 0.801191);
+    font-family: 'Poppins', sans-serif;
+    color: #111029;
+    margin: 5px 0px 10px 0px;
+    width: 100%;
+    height: calc(20px + 3vh);
+    width: 100%;
+}
+
+select{
+    background: white(244, 244, 244, 0.801191);
+    border-radius: 12px;
+    border: 2px solid rgba(244, 244, 244, 0.801191);
+    font-family: 'Poppins', sans-serif;
+    color: #111029;
+    margin: 5px 0px 10px 0px;
+    width: 100%;
+    height: calc(20px + 3vh);
+    width: 100%;
+}
+
+.input-box::placeholder{
+    color: #111029;
+    margin: auto;
+}
+
+.input-box-small{
+    background: white(244, 244, 244, 0.801191);
+    border-radius: 12px;
+    border: 2px solid rgba(244, 244, 244, 0.801191);
+    font-family: 'Poppins', sans-serif;
+    color: #111029;
+    margin: 5px 0px 10px 0px;
+    width: 100%;
+    height: calc(20px + 3vh);
+    width: 30%;
+    text-align: center;
+}
+
+.input-box-small::placeholder{
+    color: #111029;
+    margin: auto;
+}
+
+.inline{
+    display: inline;
+}
+
+
+input:focus { 
+    outline: none;
+    border-color: #00113B;
+    box-shadow: 0 0 1px #5c4eff;
+ }
+
+div p{
+    margin-top: 0px;
+ }
+
+ button{
+    padding: 10px 20px 10px 20px;
+    border: none;
+    outline: none;
+    background: #00113B;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 5px 10px 18px #888888;
+}
+
+label{
+    text-align: start;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+}
+
+.w-70{
+    width: 70%;
+    margin:auto;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.block{
+    display: block;
+}
+
+.no-top-margin{
+    margin-top: 0px;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+
